@@ -1,0 +1,152 @@
+  body {
+      font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;
+      /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+      /*font: 20px Montserrat, sans-serif;*/
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+
+/*////////FIRST CONTRAINER///////*/
+
+  .img-circle {
+    width: 20%;
+    overflow: hidden;
+  }
+
+  #profile-pic {
+    overflow: visible;
+  }
+
+  #left-right-div {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid white;
+  }
+
+  #left {
+    float: left;
+    clear: right;
+    overflow: hidden;
+  }
+
+
+
+
+
+
+  a {
+    /*color: #462466;*/
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+  }
+  
+  .about-me-p {
+    font-size: 24px;
+    font-family: 'Asap', sans-serif;
+  }
+
+
+  p {
+    font-size: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    /*font-family: 'Cuprum', sans-serif;*/
+    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
+  }
+
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    /*  background-image: url("../images/purplefabric.jpg");
+      background-size: cover;*/
+      /*background-image: url("http://s7.favim.com/610/150527/anchor-purple-wallpaper-Favim.com-2768197.jpg");*/
+
+      background-color: pink; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      background-image: url("../images/purplefabric.jpg");
+      background-size: cover;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0px;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+
+  nav.navbar.navbar-default {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+
+/*////////PORFOLIO///////*/
+
+  .project-img {
+    width: 80%;
+  }
+
+  .purp-github {
+    width: 10%;
+    margin-bottom: 1%;
+  }
+
+  .purp-github:hover {
+    font-size: 1.4em;
+  }
+
+
+  #about-me {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Abel', sans-serif;
+  }
+
+  .project-link {
+    font-size: 1.2em;
+    color: #DB5164;
+  }
+
+  .project-link:hover {
+    color: #DB5164;
+    font-size: 1.4em;
+  }
+
+  .project-title {
+    color: #5E2B6B;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 700;
+  }
+  
+
+  .purple {
+    color: #5E2B6B;
+  }
+
+
+
+
+
+
+
