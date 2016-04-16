@@ -1,50 +1,71 @@
   body {
-      font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;
-      /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-      /*font: 20px Montserrat, sans-serif;*/
-      line-height: 1.8;
-      color: #f5f6f7;
+    font-family: monospace;
+    /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font: 20px Montserrat, sans-serif;*/
+    line-height: 1.8;
+    color: #f5f6f7;
   }
 
-/*////////FIRST CONTRAINER///////*/
-
-  .img-circle {
-    width: 20%;
-    overflow: hidden;
+/*////////NAVBAR///////*/
+  .navbar {
+      background-image: url("https://s-media-cache-ak0.pinimg.com/736x/f1/89/85/f189852fa838b839fcd15e497f33707b.jpg");
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0px;
+      font-size: 12px;
+      letter-spacing: 5px;
   }
 
-  #profile-pic {
-    overflow: visible;
+  nav.navbar.navbar-default {
+    /*margin-bottom: 0%;*/
+    border-radius: 0px;
+    border: 0px;
   }
 
-  #left-right-div {
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid white;
+  .navbar-nav  li a:hover {
+      font-size: 2em;
+      color: #1abc9c !important;
   }
 
-  #left {
-    float: left;
-    clear: right;
-    overflow: hidden;
-  }
-
-
-
-
-
-
-  a {
-    /*color: #462466;*/
+ a {
+    font-size: 1.4em;
+    color: #57356F;
     font-family: 'Asap', sans-serif;
     font-weight: 700;
   }
-  
-  .about-me-p {
-    font-size: 24px;
-    font-family: 'Asap', sans-serif;
+ /*////////END OF NAVBAR///////*/
+
+  .subtitles {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 4%;
+    margin-bottom: 0px;
+    color: #333;
+/*   -webkit-text-fill-color: #D3D679;
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;*/
   }
 
+  h3 {
+    font-family: monospace;
+  }
+
+  .a-tag {
+    color: #BB3A56;
+  }
+  
+  #my-name {
+    font-size: 1.9em;
+  }
+
+  #my-name:hover {
+    color: #1abc9c;
+    font-size: 2.5em;
+  }
 
   p {
     font-size: 20px;
@@ -53,7 +74,53 @@
     /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
   }
 
-  .margin {margin-bottom: 45px;}
+/*////////ABOUT ME///////*/
+
+  #profile-pic {
+    border-radius: 25px;
+    padding: 6% 4% 0 5%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+  .about-me-p {
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: 'Asap', sans-serif;
+    margin-bottom: 0;
+  }
+/*
+  .fa-heart:before {
+   color: red;
+  }*/
+
+  .redheart {
+    font-size: .7em;
+    padding-right: 1%;
+    color: red;
+  }
+
+  #left-right-div {
+    vertical-align: middle;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 25px;
+  }
+
+  #left {
+    float: left;
+    clear: right;
+    overflow: hidden;
+  }
+
+  /*////////END OF ABOUT ME///////*/
+
+  .margin {
+    margin-bottom: 45px;
+  }
+
   .bg-1 { 
     /*  background-image: url("../images/purplefabric.jpg");
       background-size: cover;*/
@@ -67,7 +134,8 @@
       color: #ffffff;
   }
   .bg-3 { 
-      background-color: #ffffff; /* White */
+      background-color: #1abc9c;
+      /*background-color: #ffffff; /* White */*/
       color: #555555;
   }
   .bg-4 { 
@@ -77,27 +145,6 @@
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
-  }
-  .navbar {
-      background-image: url("../images/purplefabric.jpg");
-      background-size: cover;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0px;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-
-  nav.navbar.navbar-default {
-    margin-bottom: 0px;
-    border-radius: 0px;
-    border: 0px;
-  }
-
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
   }
 
 
@@ -116,6 +163,10 @@
     font-size: 1.4em;
   }
 
+  .social-media {
+     width: 3%;
+  }
+
 
   #about-me {
     width: 60%;
@@ -124,29 +175,48 @@
   }
 
   .project-link {
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: #DB5164;
   }
 
   .project-link:hover {
     color: #DB5164;
-    font-size: 1.4em;
-  }
-
-  .project-title {
-    color: #5E2B6B;
-    font-family: 'Ropa Sans', sans-serif;
-    font-weight: 700;
+    font-size: 1.8em;
   }
   
+ /* #mnm-div {
+    margin-top: 20%;
+  }
 
+  #trippin-div {
+    margin-top: 29%;
+  }*/
+
+
+  .project-title {
+    font-size: 2em;
+    color: #333;
+    /*color: #5E2B6B;*/
+    font-family: monospace;
+  }
+  
   .purple {
     color: #5E2B6B;
   }
 
+  /*////////SKILLS///////*/
+  
+  .skills {
+    margin: 3%;
+    border-radius: 5px;
+    width: 7%;
+  }
 
+  #angularjs {
+    width: 10%;
+  }
 
-
-
-
+  #html5 {
+    width: 10%;
+  }
 
