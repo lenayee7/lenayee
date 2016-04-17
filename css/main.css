@@ -3,9 +3,10 @@
     /*font-family: Menlo,Monaco,Consolas,"CourierNew",monospace;*/
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     /*font: 20px Montserrat, sans-serif;*/
-    line-height: 1.8;
+/*    line-height: 1.8;*/
     color: #f5f6f7;
   }
+
 
 /*////////NAVBAR///////*/
   .navbar {
@@ -20,31 +21,45 @@
   }
 
   nav.navbar.navbar-default {
+    color: #A00B0B;
     /*margin-bottom: 0%;*/
     border-radius: 0px;
     border: 0px;
   }
 
   .navbar-nav  li a:hover {
-      font-size: 2em;
-      color: #1abc9c !important;
+    font-size: 2em;
+    color: #1abc9c !important;
   }
 
- a {
-    font-size: 1.4em;
-    color: #57356F;
+  .navbar-default .navbar-nav>li>a {
+  color: #C52C2C;
+  font-size: 1.6em;
+  font-family: monospace;
+  /*font-family: 'Asap', sans-serif;*/
+  font-weight: 700;
+  }
+
+  #my-name {
+    color: #C52C2C;
     font-family: 'Asap', sans-serif;
+    font-size: 2.2em;
     font-weight: 700;
+  }
+
+  #my-name:hover {
+    color: #1abc9c;
+    font-size: 2em;
   }
  /*////////END OF NAVBAR///////*/
 
   .subtitles {
+    color: #A00B0B;
     font-size: 2em;
     font-weight: bold;
     font-family: monospace;
     padding-top: 4%;
     margin-bottom: 0px;
-    color: #333;
 /*   -webkit-text-fill-color: #D3D679;
    -webkit-text-stroke-width: .5px;
    -webkit-text-stroke-color: black;*/
@@ -54,17 +69,10 @@
     font-family: monospace;
   }
 
-  .a-tag {
+  .pink {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1em;
     color: #BB3A56;
-  }
-  
-  #my-name {
-    font-size: 1.9em;
-  }
-
-  #my-name:hover {
-    color: #1abc9c;
-    font-size: 2.5em;
   }
 
   p {
@@ -163,11 +171,6 @@
     font-size: 1.4em;
   }
 
-  .social-media {
-     width: 3%;
-  }
-
-
   #about-me {
     width: 60%;
     margin: 0 auto;
@@ -176,11 +179,12 @@
 
   .project-link {
     font-size: 1.6em;
-    color: #DB5164;
+    color: #A00B0B;
+    text-decoration: underline;
   }
 
   .project-link:hover {
-    color: #DB5164;
+    color: #A00B0B;
     font-size: 1.8em;
   }
   
@@ -219,4 +223,48 @@
   #html5 {
     width: 10%;
   }
+
+  #jquery {
+    width: 10%;
+  }
+
+  #github {
+    width: 10%;
+    border-radius: 5px;
+    margin: 3%;
+  }
+
+  #rails {
+    width: 7%;
+    border-radius: 7px;
+  }
+
+  /*////////FOOTER///////*/
+
+  #gmail {
+    width: 3.5%;
+  }
+
+  #linkedin {
+    width: 3%;
+  }
+
+  #githubcontact {
+    width: 3%;
+  }
+
+  .social-media {
+     width: 3%;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
 
