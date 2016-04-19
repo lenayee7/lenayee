@@ -10,7 +10,7 @@
 
 /*////////NAVBAR///////*/
   .navbar {
-      background-image: url("https://s-media-cache-ak0.pinimg.com/736x/f1/89/85/f189852fa838b839fcd15e497f33707b.jpg");
+      background-image: url("../images/pineapple.jpg");
       padding-top: 15px;
       padding-bottom: 15px;
       border: 0;
@@ -42,8 +42,9 @@
 
   #my-name {
     color: #C52C2C;
-    font-family: 'Asap', sans-serif;
-    font-size: 2.2em;
+    font-family: 'Satisfy', cursive;
+    /*font-family: 'Asap', sans-serif;*/
+    font-size: 2.6em;
     font-weight: 700;
   }
 
@@ -84,18 +85,34 @@
 
 /*////////ABOUT ME///////*/
 
+  #job-title {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+
   #profile-pic {
     border-radius: 25px;
-    padding: 6% 4% 0 5%;
-    vertical-align: middle;
+    padding-right: 1%;
+    float: left;
+    clear: right;
     overflow: hidden;
+    opacity: 1;
   }
 
   .about-me-p {
+    background-image: url("http://www.kitaro10.com/wp-content/uploads/2014/01/17.jpg");
+    background-size: 100% 100%;
+    opacity: 1;
+    padding: 3% 2%;
+    width: 90%;
+    border-radius: 25px;
+    color: pink;
     vertical-align: middle;
-    font-size: 24px;
-    font-family: 'Asap', sans-serif;
-    margin-bottom: 0;
+    font-size: 1.7em;
+    /*font-family: 'Asap', sans-serif;*/
+    margin-top: 3%;
+    margin: 0 auto;
   }
 /*
   .fa-heart:before {
@@ -113,7 +130,7 @@
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     border-radius: 25px;
   }
 
@@ -148,7 +165,7 @@
   }
   .bg-4 { 
       background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
+      color: gray;
   }
   .container-fluid {
       padding-top: 70px;
@@ -192,6 +209,7 @@
   .project-title {
     font-size: 2em;
     color: #333;
+    font-weight: bold;
     /*color: #5E2B6B;*/
     font-family: monospace;
   }
@@ -235,21 +253,58 @@
 
   #gmail {
     width: 3.5%;
+    margin: 1%;
   }
 
   #linkedin {
-    width: 3%;
+    width: 4%;
+    margin: 1%;
   }
 
   #githubcontact {
-    width: 3%;
+    width: 4%;
+    margin: 1%;
   }
 
   .social-media {
-     width: 3%;
+     width: 4%;
+     margin: 1%;
   }
 
- 
+  #resume {
+    font-size: 1.4em;
+  }
+
+@media (max-width: 606px) {
+
+  #job-title {
+    font-size: 1.4em;
+  }
+
+  .about-me-p {
+    width: 100%;
+    font-size: 1.4em;
+    margin-top: 3%;
+    margin: 0 auto;
+  }
+
+  #gmail {
+    width: 7%;
+  }
+
+  #linkedin {
+    width: 7%;
+  }
+
+  #githubcontact {
+    width: 7%;
+  }
+
+  .social-media {
+     width: 7%;
+  }
+
+} 
 
 
 
