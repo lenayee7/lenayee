@@ -157,10 +157,11 @@
 
 
 /*////////PORFOLIO///////*/
-
+/*
   .project-img {
-    width: 80%;
-  }
+    width: 200;
+    height: 200px;
+  }*/
 
   .purp-github {
     width: 10%;
@@ -187,15 +188,6 @@
     color: #A00B0B;
     font-size: 1.8em;
   }
-  
- /* #mnm-div {
-    margin-top: 20%;
-  }
-
-  #trippin-div {
-    margin-top: 29%;
-  }*/
-
 
   .project-title {
     font-size: 2em;
